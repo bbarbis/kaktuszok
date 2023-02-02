@@ -14,11 +14,11 @@ main{
     background-color: rgb(255, 255, 255);
 }
 header{
-    padding-top: 2px;
+    padding-top: 10px;
     grid-area: "h";
     box-sizing: border-box;
     background-color:  rgb(0, 174, 255);
-    height: 300px;
+    height: 150px;
     background-size: cover;
 }
 h1{
@@ -29,30 +29,35 @@ h1{
 nav{
     grid-area: "n";
     box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(20, 97, 185);
+    border-radius: 10px solid blue;
   }
   
-  li {
+nav li {
     float: left;
     font-family: Arial, Helvetica, sans-serif;
+    
   }
   
-  li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 10px solid blue;
   }
-  a:link{
+nav a:link{
     font-weight: bold;
+  }
+nav li a:hover:not(.active) {
+    background-color: rgb(255, 177, 33);
   }
   li a:hover:not(.active) {
     background-color: rgb(255, 177, 33);
@@ -71,7 +76,16 @@ article img{
     background: blue;
     padding: 5px;
     width: 30%;
-    
+}
+article ol{
+    border-radius: 2px;
+    background: blue;
+    padding: 5px;
+    width: 30%;
+}
+.kaktusz{
+    float: left;
+    width: 100%;
 }
 footer{
     grid-area: "f";
