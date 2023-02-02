@@ -74,11 +74,27 @@ a:hover {
     margin: 15px;
     
 }
+.szoveg{
+    margin: px;
+    border-radius: 5px;
+    border: 3px solid blue ;
+    padding: 8px;
+    background-color: aqua;
+}
 article img{
     margin: 15px;
     border-radius: 5px;
     border: 3px solid blue ;
 }
+#kaktusz{
+    float: left;
+    margin: 15px;
+    border-radius: 5px;
+    border: 3px solid blue ;
+    padding: 8px;
+    background-color: aqua;
+}
+
 footer{
     grid-area: f;
     box-sizing: border-box;
